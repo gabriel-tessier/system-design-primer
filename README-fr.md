@@ -1,6 +1,6 @@
 *[English](README.md) ∙ [日本語](README-ja.md) ∙ [简体中文](README-zh-Hans.md) ∙ [繁體中文](README-zh-TW.md) ∙ [French](README-fr.md) | [Arabic](https://github.com/donnemartin/system-design-primer/issues/170) ∙ [Bengali](https://github.com/donnemartin/system-design-primer/issues/220) ∙ [Brazilian Portuguese](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [German](https://github.com/donnemartin/system-design-primer/issues/186) ∙ [Greek](https://github.com/donnemartin/system-design-primer/issues/130) ∙ [Italian](https://github.com/donnemartin/system-design-primer/issues/104) ∙ [Korean](https://github.com/donnemartin/system-design-primer/issues/102) ∙ [Persian](https://github.com/donnemartin/system-design-primer/issues/110) ∙ [Polish](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [Russian](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Spanish](https://github.com/donnemartin/system-design-primer/issues/136) ∙ [Thai](https://github.com/donnemartin/system-design-primer/issues/187) ∙ [Turkish](https://github.com/donnemartin/system-design-primer/issues/39) ∙ [Vietnamese](https://github.com/donnemartin/system-design-primer/issues/127) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
 
-# Introduction à la conception de systèmes
+# Introduction à la conception de systèmes à grande échelle
 
 <p align="center">
   <img src="http://i.imgur.com/jj3A5N8.png">
@@ -8,17 +8,17 @@
 </p>
 
 ## Motivation
-> Apprendre a conceptionner des systèmes à grande echelle.
+> Apprendre a concevoir des systèmes à grande échelle.
 >
-> Préparation pour les entretiens de conception de systèmes.
+> Préparation pour les entretiens.
 
-### Apprendre a conceptionner des systèmes à grande echelle
+### Apprendre a concevoir des systèmes à grande échelle
 
-Apprendre à conceptionner des systèmes à grande echelle vous permettra de devenir une meilleur ingénieur.
+Apprendre à concevoir des systèmes à grande échelle vous permettra de devenir un(e) meilleur ingénieur(e).
 
-La conception de systèmes est un vaste sujet. Une **grande quantité de ressources dispersée sur le web** traite des principes de la conception de systèmes.
+La conception de systèmes est un vaste sujet. Une **grande quantité de ressources** traite des principes de la conception de systèmes, **mais est dispersée sur le web****.
 
-Ce dossier est une **collection organisée** des ressources disponibles pour vous aider à apprendre à créer des systèmes à grande echelle.
+Ce dossier est une **collection organisée** de ressources disponibles, pour vous aider à apprendre à créer des systèmes à grande échelle.
 
 ### Apprendre de la communauté open source
 
@@ -80,13 +80,13 @@ Libre à vous d'envoyer des pull requests pour aider à:
 * Ajouter des nouvelles sections
 * [Traduire](https://github.com/donnemartin/system-design-primer/issues/28)
 
-Les sections qui nécessitent des finitions sont placés dans la section [en développement](#under-development).
+Les sections qui nécessitent des améliorations sont placés dans la section [en développement](#under-development).
 
 Lisez les [directives de contribution](CONTRIBUTING.md).
 
 ## Index des sujets de conception de système
 
-> Sommaire de divers sujets de conception de système, incluant pour et contre.
+> Sommaire de divers sujets de conception de système, incluant les pour et les contre.
 >
 > Chaque section contient des liens vers des ressources approfondies.
 
@@ -119,16 +119,16 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
 * [Load balancer](#load-balancer)
     * [Active-passive](#active-passive)
     * [Active-active](#active-active)
-    * [Layer 4 load balancing](#layer-4-load-balancing)
-    * [Layer 7 load balancing](#layer-7-load-balancing)
+    * [Couche 4 load balancing](#layer-4-load-balancing)
+    * [Couche 7 load balancing](#layer-7-load-balancing)
     * [Horizontal scaling](#horizontal-scaling)
 * [Reverse proxy (web server)](#reverse-proxy-web-server)
     * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
-* [Application layer](#application-layer)
+* [Couche Application](#application-layer)
     * [Microservices](#microservices)
     * [Service discovery](#service-discovery)
-* [Database](#database)
-    * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
+* [Base de données](#database)
+    * [Systeme de Gestion Base de Données Relationel (SGBDR)](#relational-database-management-system-rdbms)
         * [Master-slave replication](#master-slave-replication)
         * [Master-master replication](#master-master-replication)
         * [Federation](#federation)
