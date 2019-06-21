@@ -124,7 +124,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Horizontal scaling](#horizontal-scaling)
 * [Reverse proxy (web server)](#reverse-proxy-web-server)
     * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
-* [Couche Application](#application-layer)
+* [Couche Applicative](#application-layer)
     * [Microservices](#microservices)
     * [Service discovery](#service-discovery)
 * [Base de données](#database)
