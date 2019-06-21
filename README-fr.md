@@ -119,7 +119,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
 * [Load balancer](#load-balancer)
     * [Active-passive](#active-passive)
     * [Active-active](#active-active)
-    * [Couche 4 load balancing](#layer-4-load-balancing)
+    * [Répartition de charge couche 4](#layer-4-load-balancing)
     * [Couche 7 load balancing](#layer-7-load-balancing)
     * [Horizontal scaling](#horizontal-scaling)
 * [Reverse proxy (web server)](#reverse-proxy-web-server)
