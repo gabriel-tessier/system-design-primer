@@ -14,7 +14,7 @@
 
 ### Apprendre a concevoir des systèmes à grande échelle
 
-Apprendre à concevoir des systèmes à grande échelle vous permettra de devenir un(e) meilleur ingénieur(e).
+Apprendre à concevoir des systèmes à grande échelle vous permettra de devenir un(e) meilleur(e) ingénieur(e).
 
 La conception de systèmes est un vaste sujet. Une **grande quantité de ressources** traite des principes de la conception de systèmes, **mais est dispersée sur le web****.
 
