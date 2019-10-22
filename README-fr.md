@@ -12,7 +12,7 @@
 >
 > Préparation pour les entretiens.
 
-### Apprendre a concevoir des systèmes à grande échelle
+### Apprendre à concevoir des systèmes à grande échelle
 
 Apprendre à concevoir des systèmes à grande échelle vous permettra de devenir un(e) meilleur(e) ingénieur(e).
 
@@ -147,8 +147,8 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Cache du Serveur web](#web-server-caching)
     * [Cache de Base de données](#database-caching)
     * [Cache applicatif](#application-caching)
-    * [Caching at the database query level](#caching-at-the-database-query-level)
-    * [Caching at the object level](#caching-at-the-object-level)
+    * [Cache des requêtes de BDD](#caching-at-the-database-query-level)
+    * [Cache des objets](#caching-at-the-object-level)
     * [Quand mettre à jour le cache](#when-to-update-the-cache)
         * [Cache-aside](#cache-aside)
         * [Write-through](#write-through)
@@ -163,8 +163,8 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [User datagram protocol (UDP)](#user-datagram-protocol-udp)
     * [Remote procedure call (RPC)](#remote-procedure-call-rpc)
     * [Representational state transfer (REST)](#representational-state-transfer-rest)
-* [Security](#security)
-* [Appendix](#appendix)
+* [Securité](#security)
+* [Appendice](#appendix)
     * [Powers of two table](#powers-of-two-table)
     * [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
     * [Additional system design interview questions](#additional-system-design-interview-questions)
@@ -172,7 +172,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Company architectures](#company-architectures)
     * [Company engineering blogs](#company-engineering-blogs)
 * [Under development](#under-development)
-* [Credits](#credits)
+* [Crédits](#credits)
 * [Contact info](#contact-info)
 * [License](#license)
 
