@@ -145,7 +145,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Mise en cache client](#client-caching)
     * [RDC (CDN) de caching](#cdn-caching)
     * [Cache du Serveur web](#web-server-caching)
-    * [Cache de Base de données](#database-caching)
+    * [Cache de base de données](#database-caching)
     * [Cache applicatif](#application-caching)
     * [Cache des requêtes de BDD](#caching-at-the-database-query-level)
     * [Cache des objets](#caching-at-the-object-level)
