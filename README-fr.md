@@ -133,7 +133,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
         * [Réplication principale-principale](#master-master-replication)
         * [Féderation](#federation)
         * [Partitionement](#sharding)
-        * [Dénormalization](#denormalization)
+        * [Dénormalisation](#denormalization)
         * [Optimisation SQL](#sql-tuning)
     * [NoSQL](#nosql)
         * [Stockage Clé-Valeur](#key-value-store)
