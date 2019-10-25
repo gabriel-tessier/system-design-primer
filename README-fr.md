@@ -136,7 +136,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
         * [Dénormalisation](#denormalization)
         * [Optimisation SQL](#sql-tuning)
     * [NoSQL](#nosql)
-        * [Stockage Clé-Valeur](#key-value-store)
+        * [Stockage clé-valeur](#key-value-store)
         * [Stockage de Document](#document-store)
         * [Wide column store](#wide-column-store)
         * [Graph Database](#graph-database)
