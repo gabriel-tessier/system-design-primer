@@ -101,7 +101,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Étapes suivantes](#next-steps)
 * [Performance vs évolutivité](#performance-vs-scalability)
 * [Latence vs haut débit](#latency-vs-throughput)
-* [Disponibilité vs Cohérence](#availability-vs-consistency)
+* [Disponibilité vs cohérence](#availability-vs-consistency)
     * [Théorème CAP ou CDP](#cap-theorem)
         * [CP - Cohérence et tolérance au Partitionnement](#cp---consistency-and-partition-tolerance)
         * [DP - Disponibilité et tolérance au partitionnement](#ap---availability-and-partition-tolerance)
