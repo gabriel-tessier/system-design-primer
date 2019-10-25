@@ -116,7 +116,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
 * [Réseau de diffusion de contenu](#content-delivery-network)
     * [Injection RDC (CDNs)](#push-cdns)
     * [Récupération RDC (CDNs)](#pull-cdns)
-* [Répartiteur de Charge](#load-balancer)
+* [Répartiteur de charge](#load-balancer)
     * [Actif-passif](#active-passive)
     * [Actif-actif](#active-active)
     * [Répartition de charge couche 4](#layer-4-load-balancing)
