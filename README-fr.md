@@ -137,7 +137,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
         * [Optimisation SQL](#sql-tuning)
     * [NoSQL](#nosql)
         * [Stockage clé-valeur](#key-value-store)
-        * [Stockage de Document](#document-store)
+        * [Stockage de document](#document-store)
         * [Wide column store](#wide-column-store)
         * [Graph Database](#graph-database)
     * [SQL ou NoSQL](#sql-or-nosql)
