@@ -104,7 +104,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
 * [Disponibilité vs Cohérence](#availability-vs-consistency)
     * [Théorème CAP ou CDP](#cap-theorem)
         * [CP - Cohérence et tolérance au Partitionnement](#cp---consistency-and-partition-tolerance)
-        * [DP - Disponibilité et tolérance au Partitionnement](#ap---availability-and-partition-tolerance)
+        * [DP - Disponibilité et tolérance au partitionnement](#ap---availability-and-partition-tolerance)
 * [Patrons de cohérence](#consistency-patterns)
     * [Faible cohérence](#weak-consistency)
     * [Cohérence](#eventual-consistency)
