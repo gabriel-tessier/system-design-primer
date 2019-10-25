@@ -109,7 +109,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Faible cohérence](#weak-consistency)
     * [Cohérence](#eventual-consistency)
     * [Cohérence Forte](#strong-consistency)
-* [Patrons de Disponibilité](#availability-patterns)
+* [Patrons de disponibilité](#availability-patterns)
     * [Basculement](#fail-over)
     * [Réplication](#replication)
 * [Système de Noms de Domaine](#domain-name-system)
