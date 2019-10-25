@@ -123,7 +123,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Répartition de charge couche 7](#layer-7-load-balancing)
     * [Mise à l'échelle horizontale](#horizontal-scaling)
 * [Proxy inverse (serveur web)](#reverse-proxy-web-server)
-    * [Répartiteur de Charge vs Proxy inverse](#load-balancer-vs-reverse-proxy)
+    * [Répartiteur de charge vs Proxy inversé](#load-balancer-vs-reverse-proxy)
 * [Couche Applicative](#application-layer)
     * [Microservices](#microservices)
     * [Découverte de service](#service-discovery)
