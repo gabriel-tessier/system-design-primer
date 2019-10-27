@@ -99,7 +99,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Étape 1: Regarder la vidéo de mise à l'échelle](#step-1-review-the-scalability-video-lecture)
     * [Étape 2: Lire l'article sur la mise à l'échelle](#step-2-review-the-scalability-article)
     * [Étapes suivantes](#next-steps)
-* [Performance vs évolutivité](#performance-vs-scalability)
+* [Performance vs scalabilité](#performance-vs-scalability)
 * [Latence vs haut débit](#latency-vs-throughput)
 * [Disponibilité vs cohérence](#availability-vs-consistency)
     * [Théorème CAP ou CDP](#cap-theorem)
