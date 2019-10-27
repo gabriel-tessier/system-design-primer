@@ -155,7 +155,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
         * [Write-behind (write-back)](#write-behind-write-back)
         * [Refresh-ahead](#refresh-ahead)
 * [Asynchronism](#asynchronism)
-    * [File d'attente de message](#message-queues)
+    * [File d'attente de messages](#message-queues)
     * [File d'attente de tâches](#task-queues)
     * [Back pressure](#back-pressure)
 * [Communication](#communication)
