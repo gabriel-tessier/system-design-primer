@@ -80,7 +80,7 @@ Libre à vous d'envoyer des pull requests pour aider à:
 * Ajouter des nouvelles sections
 * [Traduire](https://github.com/donnemartin/system-design-primer/issues/28)
 
-Les sections qui nécessitent des améliorations sont placés dans la section [en développement](#under-development).
+Les sections qui nécessitent des améliorations sont placées dans la section [en développement](#under-development).
 
 Lisez les [directives de contribution](CONTRIBUTING.md).
 
