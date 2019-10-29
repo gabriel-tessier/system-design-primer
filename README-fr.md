@@ -1,6 +1,6 @@
 *[English](README.md) ∙ [日本語](README-ja.md) ∙ [简体中文](README-zh-Hans.md) ∙ [繁體中文](README-zh-TW.md) ∙ [French](README-fr.md) | [Arabic](https://github.com/donnemartin/system-design-primer/issues/170) ∙ [Bengali](https://github.com/donnemartin/system-design-primer/issues/220) ∙ [Brazilian Portuguese](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [German](https://github.com/donnemartin/system-design-primer/issues/186) ∙ [Greek](https://github.com/donnemartin/system-design-primer/issues/130) ∙ [Italian](https://github.com/donnemartin/system-design-primer/issues/104) ∙ [Korean](https://github.com/donnemartin/system-design-primer/issues/102) ∙ [Persian](https://github.com/donnemartin/system-design-primer/issues/110) ∙ [Polish](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [Russian](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Spanish](https://github.com/donnemartin/system-design-primer/issues/136) ∙ [Thai](https://github.com/donnemartin/system-design-primer/issues/187) ∙ [Turkish](https://github.com/donnemartin/system-design-primer/issues/39) ∙ [Vietnamese](https://github.com/donnemartin/system-design-primer/issues/127) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
 
-# Introduction à la conception de systèmes
+# Introduction à la conception de systèmes à grande échelle
 
 <p align="center">
   <img src="http://i.imgur.com/jj3A5N8.png">
@@ -8,17 +8,17 @@
 </p>
 
 ## Motivation
-> Apprendre a conceptionner des systèmes à grande echelle.
+> Apprendre a concevoir des systèmes à grande échelle.
 >
-> Préparation pour les entretiens de conception de systèmes.
+> Préparation pour les entretiens.
 
-### Apprendre a conceptionner des systèmes à grande echelle
+### Apprendre à concevoir des systèmes à grande échelle
 
-Apprendre à conceptionner des systèmes à grande echelle vous permettra de devenir une meilleur ingénieur.
+Apprendre à concevoir des systèmes à grande échelle vous permettra de devenir un(e) meilleur(e) ingénieur(e).
 
-La conception de systèmes est un vaste sujet. Une **grande quantité de ressources dispersée sur le web** traite des principes de la conception de systèmes.
+La conception de systèmes est un vaste sujet. Une **grande quantité de ressources** traite des principes de la conception de systèmes, **mais est dispersée sur le web****.
 
-Ce dossier est une **collection organisée** des ressources disponibles pour vous aider à apprendre à créer des systèmes à grande echelle.
+Ce dossier est une **collection organisée** de ressources disponibles, pour vous aider à apprendre à créer des systèmes à grande échelle.
 
 ### Apprendre de la communauté open source
 
@@ -80,13 +80,13 @@ Libre à vous d'envoyer des pull requests pour aider à:
 * Ajouter des nouvelles sections
 * [Traduire](https://github.com/donnemartin/system-design-primer/issues/28)
 
-Les sections qui nécessitent des finitions sont placés dans la section [en développement](#under-development).
+Les sections qui nécessitent des améliorations sont placées dans la section [en développement](#under-development).
 
 Lisez les [directives de contribution](CONTRIBUTING.md).
 
 ## Index des sujets de conception de système
 
-> Sommaire de divers sujets de conception de système, incluant pour et contre.
+> Sommaire de divers sujets de conception de système, incluant les pour et les contre.
 >
 > Chaque section contient des liens vers des ressources approfondies.
 
@@ -99,72 +99,72 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Étape 1: Regarder la vidéo de mise à l'échelle](#step-1-review-the-scalability-video-lecture)
     * [Étape 2: Lire l'article sur la mise à l'échelle](#step-2-review-the-scalability-article)
     * [Étapes suivantes](#next-steps)
-* [Performance vs scalability](#performance-vs-scalability)
-* [Latency vs throughput](#latency-vs-throughput)
-* [Availability vs consistency](#availability-vs-consistency)
-    * [CAP theorem](#cap-theorem)
-        * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
-        * [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
-* [Consistency patterns](#consistency-patterns)
-    * [Weak consistency](#weak-consistency)
-    * [Eventual consistency](#eventual-consistency)
-    * [Strong consistency](#strong-consistency)
-* [Availability patterns](#availability-patterns)
-    * [Fail-over](#fail-over)
-    * [Replication](#replication)
-* [Domain name system](#domain-name-system)
-* [Content delivery network](#content-delivery-network)
-    * [Push CDNs](#push-cdns)
-    * [Pull CDNs](#pull-cdns)
-* [Load balancer](#load-balancer)
-    * [Active-passive](#active-passive)
-    * [Active-active](#active-active)
-    * [Layer 4 load balancing](#layer-4-load-balancing)
-    * [Layer 7 load balancing](#layer-7-load-balancing)
-    * [Horizontal scaling](#horizontal-scaling)
-* [Reverse proxy (web server)](#reverse-proxy-web-server)
-    * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
-* [Application layer](#application-layer)
+* [Performance vs scalabilité](#performance-vs-scalability)
+* [Latence vs haut débit](#latency-vs-throughput)
+* [Disponibilité vs cohérence](#availability-vs-consistency)
+    * [Théorème CAP ou CDP](#cap-theorem)
+        * [CP - Cohérence et tolérance au Partitionnement](#cp---consistency-and-partition-tolerance)
+        * [DP - Disponibilité et tolérance au partitionnement](#ap---availability-and-partition-tolerance)
+* [Patrons de cohérence](#consistency-patterns)
+    * [Faible cohérence](#weak-consistency)
+    * [Cohérence](#eventual-consistency)
+    * [Cohérence Forte](#strong-consistency)
+* [Patrons de disponibilité](#availability-patterns)
+    * [Basculement](#fail-over)
+    * [Réplication](#replication)
+* [Système de Noms de Domaine](#domain-name-system)
+* [Réseau de diffusion de contenu](#content-delivery-network)
+    * [Injection RDC (CDNs)](#push-cdns)
+    * [Récupération RDC (CDNs)](#pull-cdns)
+* [Répartiteur de charge](#load-balancer)
+    * [Actif-passif](#active-passive)
+    * [Actif-actif](#active-active)
+    * [Répartition de charge couche 4](#layer-4-load-balancing)
+    * [Répartition de charge couche 7](#layer-7-load-balancing)
+    * [Mise à l'échelle horizontale](#horizontal-scaling)
+* [Proxy inverse (serveur web)](#reverse-proxy-web-server)
+    * [Répartiteur de charge vs Proxy inversé](#load-balancer-vs-reverse-proxy)
+* [Couche Applicative](#application-layer)
     * [Microservices](#microservices)
-    * [Service discovery](#service-discovery)
-* [Database](#database)
-    * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
-        * [Master-slave replication](#master-slave-replication)
-        * [Master-master replication](#master-master-replication)
-        * [Federation](#federation)
-        * [Sharding](#sharding)
-        * [Denormalization](#denormalization)
-        * [SQL tuning](#sql-tuning)
+    * [Découverte de service](#service-discovery)
+* [Base de données](#database)
+    * [Systeme de Gestion Base de Données Relationel (SGBDR)](#relational-database-management-system-rdbms)
+        * [Réplication principale-secondaire](#master-slave-replication)
+        * [Réplication principale-principale](#master-master-replication)
+        * [Féderation](#federation)
+        * [Partitionement](#sharding)
+        * [Dénormalisation](#denormalization)
+        * [Optimisation SQL](#sql-tuning)
     * [NoSQL](#nosql)
-        * [Key-value store](#key-value-store)
-        * [Document store](#document-store)
+        * [Stockage clé-valeur](#key-value-store)
+        * [Stockage de document](#document-store)
         * [Wide column store](#wide-column-store)
-        * [Graph Database](#graph-database)
-    * [SQL or NoSQL](#sql-or-nosql)
+        * [Base de données orientée graphe](#graph-database)
+    * [SQL ou NoSQL](#sql-or-nosql)
 * [Cache](#cache)
-    * [Client caching](#client-caching)
-    * [CDN caching](#cdn-caching)
-    * [Web server caching](#web-server-caching)
-    * [Database caching](#database-caching)
-    * [Application caching](#application-caching)
-    * [Caching at the database query level](#caching-at-the-database-query-level)
-    * [Caching at the object level](#caching-at-the-object-level)
-    * [When to update the cache](#when-to-update-the-cache)
+    * [Mise en cache client](#client-caching)
+    * [RDC (CDN) de caching](#cdn-caching)
+    * [Cache du serveur web](#web-server-caching)
+    * [Cache de base de données](#database-caching)
+    * [Cache applicatif](#application-caching)
+    * [Cache des requêtes de BDD](#caching-at-the-database-query-level)
+    * [Cache des objets](#caching-at-the-object-level)
+    * [Quand mettre à jour le cache](#when-to-update-the-cache)
         * [Cache-aside](#cache-aside)
         * [Write-through](#write-through)
         * [Write-behind (write-back)](#write-behind-write-back)
         * [Refresh-ahead](#refresh-ahead)
 * [Asynchronism](#asynchronism)
-    * [Message queues](#message-queues)
-    * [Task queues](#task-queues)
+    * [File d'attente de messages](#message-queues)
+    * [File d'attente de tâches](#task-queues)
     * [Back pressure](#back-pressure)
 * [Communication](#communication)
     * [Transmission control protocol (TCP)](#transmission-control-protocol-tcp)
     * [User datagram protocol (UDP)](#user-datagram-protocol-udp)
     * [Remote procedure call (RPC)](#remote-procedure-call-rpc)
     * [Representational state transfer (REST)](#representational-state-transfer-rest)
-* [Security](#security)
-* [Appendix](#appendix)
+* [Securité](#security)
+* [Appendice](#appendix)
     * [Powers of two table](#powers-of-two-table)
     * [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
     * [Additional system design interview questions](#additional-system-design-interview-questions)
@@ -172,7 +172,7 @@ Lisez les [directives de contribution](CONTRIBUTING.md).
     * [Company architectures](#company-architectures)
     * [Company engineering blogs](#company-engineering-blogs)
 * [Under development](#under-development)
-* [Credits](#credits)
+* [Crédits](#credits)
 * [Contact info](#contact-info)
 * [License](#license)
 
@@ -1784,4 +1784,3 @@ My contact info can be found on my [GitHub page](https://github.com/donnemartin)
     Creative Commons Attribution 4.0 International License (CC BY 4.0)
 
     http://creativecommons.org/licenses/by/4.0/
-    
